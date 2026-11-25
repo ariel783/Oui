@@ -1,0 +1,13 @@
+import tkinter as tk
+
+mino=tk.Tk()
+
+mino.title("LILI")
+
+mino.geometry("400x500")
+
+texto=tk.Label(mino, text="oui" )
+
+texto.pack()
+
+mino.mainloop()
